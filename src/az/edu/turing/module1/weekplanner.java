@@ -27,16 +27,17 @@ public class weekplanner {
             System.out.println("Please, input the day of the week:");
             String input = scanner.nextLine().trim().toLowerCase();
 
-            // Exit condition
+
             if (input.equals("exit")) {
                 break;
             }
 
-            // Switch statement for matching input
 
-            String day = input.substring(7).trim().toLowerCase();
+
+
 
             if(input.startsWith("change")) {
+                String day = input.substring(7).trim().toLowerCase();
                 switch (day) {
                     case "monday":
                         System.out.println("Input Your task for Monday : ");

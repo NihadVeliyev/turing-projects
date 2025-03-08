@@ -74,11 +74,8 @@ public class BattleShip {
 
     public static void printGrid(String[][] square) {
 
-        System.out.print("   ");
-        for (int i = 0; i < 5; i++) {
-            System.out.print(i + " ");
-        }
-        System.out.println();
+
+
 
 
         for (int i = 0; i < 5; i++) {
