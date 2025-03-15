@@ -10,6 +10,7 @@ public class BattleShip {
         Scanner scanner = new Scanner(System.in);
 
 
+
         String[][] square = new String[5][5];
 
 

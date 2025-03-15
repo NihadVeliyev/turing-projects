@@ -49,5 +49,12 @@ public class Person {
         return Objects.hash(id, name, age);
     }
 
-
+    @Override
+    public String toString() {
+        return "Person{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", age=" + age +
+                '}';
+    }
 }
